@@ -31,6 +31,7 @@ void loop()
   Serial.print(F("%  Temperature: "));
   Serial.print(t);
   Serial.print(F("°C "));
+  delay(2000); //Delay 2 sec.
   
 
 }
