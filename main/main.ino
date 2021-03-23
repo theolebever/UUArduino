@@ -2,7 +2,7 @@
 #include <DHT_U.h>
 
 #define DHTPIN 2     // Digital pin connected to the DHT sensor
-#define DHTTYPE DHT11   // Type : DHT 11
+#define DHTTYPE DHT22   // Type : DHT 11
 
 DHT dht(DHTPIN, DHTTYPE); // Initialization for the sensor
 
